@@ -1,3 +1,27 @@
 <header class="header">
-  <div class="container"></div>
+  <div class="container">
+    <!-- Логотип -->
+     <div class="header__two">
+      <a href="#" class="header__logo">Cozy House</a>
+      <span class="header__span">Shelter for pets in Boston</span>
+    </div>
+
+
+    <!-- Кнопка-бургер (сниппет g-burger) -->
+    <button class="btn-reset burger"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+            data-burger>
+      <span class="burger__line"></span>
+    </button>
+    <!-- Навигация (обязательно с data-menu) -->
+    <nav class="header__nav" data-menu>
+      <ul class="header__list">
+        <li><a href="#main" class="header__link" data-menu-item>About the shelter</a></li>
+        <li><a href="#about" class="header__link" data-menu-item>Our pets</a></li>
+        <li><a href="#services" class="header__link" data-menu-item>Help the shelter</a></li>
+        <li><a href="#contacts" class="header__link" data-menu-item>Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
