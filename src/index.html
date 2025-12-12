@@ -7,12 +7,26 @@
   <div class="site-container">
     <div class="start_menu">
       @include('partials/header.html')
+      @include('partials/hero.html')
     </div>
 
     <main class="main">
-
+      <div class="about">
+        @include('partials/about.html')
+      </div>
+      <div class="pets">
+        @include('partials/pets.html')
+      </div>
+      <div class="help">
+        @include('partials/help.html')
+      </div>
+      <div class="help">
+        @include('partials/donation.html')
+      </div>
     </main>
-    @include('partials/footer.html')
+    <div class="finish_menu">
+      @include('partials/footer.html')
+    </div>
     <!-- @include('html/h1.html') пример include -->
   </div>
 </body>
