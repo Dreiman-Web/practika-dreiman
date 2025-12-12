@@ -1,0 +1,92 @@
+.pets {
+    text-align: center;
+    background: #F6F6F6;
+  .container {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  &__title {
+    text-align: center;
+    color: #545454;
+    font-weight: normal;
+    line-height: 130%;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+  }
+  &__carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 60px;
+  }
+  &__button {
+    width: 52px;
+    height: 52px;
+    background: transparent;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  &__card {
+    width: 100%;
+    text-align: center;
+    background-color: #FFF;
+    padding-bottom: 30px;
+  }
+  &__image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+  }
+  &__subtitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #545454;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  &__button-secondary {
+    background-color: transparent;
+    color: #292929;
+    border: 2px solid #F1CDB3;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: #F1CDB3;
+      border: none;
+      transition: 0.2s;
+    }
+  }
+  &__button-primary {
+    color: #292929;
+    background-color: #F1CDB3;
+    padding: 16px 45px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 42px;
+    display: inline-block;
+    border: 2px solid #f1cdb300;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff;
+      border: 2px solid #F1CDB3;
+      transition: 0.2s;
+    }
+  }
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.swiper-button-prev,.swiper-button-next  {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px #f1cdb3 solid;
+}
