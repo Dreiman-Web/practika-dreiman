@@ -1,0 +1,12 @@
+.gak {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  gap: 20px;
+  .pets {
+    max-height: 200px;
+  }
+}
